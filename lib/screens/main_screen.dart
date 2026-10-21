@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.sports_soccer_outlined),
-          selectedIcon: const Icon(Icons.sports_soccer, color: AppTheme.primaryColor),
-          label: 'Drills',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.track_changes_outlined),
-          selectedIcon: const Icon(Icons.track_changes, color: AppTheme.primaryColor),
-          label: 'Penalties',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.shield_outlined),
-          selectedIcon: const Icon(Icons.shield, color: AppTheme.primaryColor),
-          label: 'Clean Sheets',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.list_alt_outlined),
-          selectedIcon: const Icon(Icons.list_alt, color: AppTheme.primaryColor),
-          label: 'Log',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.shield_outlined),
+            selectedIcon: const Icon(Icons.shield, color: AppTheme.primaryColor),
+            label: 'Defense',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.speed_outlined),
+            selectedIcon: const Icon(Icons.speed, color: AppTheme.primaryColor),
+            label: 'Reflex',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.sports_soccer_outlined),
+            selectedIcon: const Icon(Icons.sports_soccer, color: AppTheme.primaryColor),
+            label: 'Penalties',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.analytics_outlined),
+            selectedIcon: const Icon(Icons.analytics, color: AppTheme.primaryColor),
+            label: 'Radar',
+          ),
         ],
       ),
     );
